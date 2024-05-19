@@ -61,7 +61,11 @@ const GifPage = () => {
     }
 
     const EmbedGif = () => {
-        // Some Code
+        const embedCode = `<iframe src="${gif.embed_url}" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>`
+        navigator.clipboard
+            .writeText(embedCode)
+            .then(() => alert("Embed code copied to clipboard"))
+            .catch(console.error)
     }
 
     return (
