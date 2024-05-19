@@ -44,7 +44,20 @@ const GifPage = () => {
     }, [])
 
     const shareGif = () => {
-        // Some Code
+        const shareUrl = window.location.href
+        if (navigator.share) {
+            navigator
+                .share({
+                    title: gif.title,
+                    url: shareUrl,
+                })
+                .catch(console.error)
+        } else {
+            navigator.clipboard
+                .writeText(shareUrl)
+                .then(() => alert("Link copied to clipboard"))
+                .catch(console.error)
+        }
     }
 
     const EmbedGif = () => {
