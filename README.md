@@ -1,4 +1,4 @@
-# Giphy Clone
+# Giphy Clone ✨
 
 Welcome to the Giphy Clone, a web application built with React.js that allows users to search for and view animated GIFs. This project is designed to mimic the functionality of Giphy, providing a responsive and interactive user experience.
 
