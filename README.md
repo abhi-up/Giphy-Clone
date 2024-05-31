@@ -55,9 +55,6 @@ Your app should now be running on `http://localhost:3000`.
 - **Axios**: Promise-based HTTP client for the browser and Node.js.
 - **Giphy API**: Provides access to a library of GIFs.
 
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## Acknowledgements
 
